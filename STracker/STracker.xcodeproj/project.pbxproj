@@ -97,12 +97,11 @@
 		1E4EEE8F1F1FC7B600EB9D5F /* STracker */ = {
 			isa = PBXGroup;
 			children = (
+				1E4EEEC11F1FC95100EB9D5F /* Support Files */,
+				1E4EEEBE1F1FC93800EB9D5F /* Models */,
+				1E4EEEBF1F1FC93F00EB9D5F /* Views */,
+				1E4EEEC01F1FC94500EB9D5F /* Controllers */,
 				1E4EEE901F1FC7B600EB9D5F /* AppDelegate.swift */,
-				1E4EEE921F1FC7B600EB9D5F /* ViewController.swift */,
-				1E4EEE941F1FC7B600EB9D5F /* Main.storyboard */,
-				1E4EEE971F1FC7B600EB9D5F /* Assets.xcassets */,
-				1E4EEE991F1FC7B600EB9D5F /* LaunchScreen.storyboard */,
-				1E4EEE9C1F1FC7B600EB9D5F /* Info.plist */,
 			);
 			path = STracker;
 			sourceTree = "<group>";
@@ -123,6 +122,39 @@
 				1E4EEEB21F1FC7B600EB9D5F /* Info.plist */,
 			);
 			path = STrackerUITests;
+			sourceTree = "<group>";
+		};
+		1E4EEEBE1F1FC93800EB9D5F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		1E4EEEBF1F1FC93F00EB9D5F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1E4EEE991F1FC7B600EB9D5F /* LaunchScreen.storyboard */,
+				1E4EEE941F1FC7B600EB9D5F /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		1E4EEEC01F1FC94500EB9D5F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1E4EEE921F1FC7B600EB9D5F /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		1E4EEEC11F1FC95100EB9D5F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E4EEE9C1F1FC7B600EB9D5F /* Info.plist */,
+				1E4EEE971F1FC7B600EB9D5F /* Assets.xcassets */,
+			);
+			name = "Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
